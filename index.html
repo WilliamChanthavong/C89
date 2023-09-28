@@ -12,11 +12,18 @@
 
 <script src="quiz_game_login.js"></script>
 </head>
-<body>
+<body class="body">
     <br>
-        <h1>Two Player Math Game</h1>
+        <!-- <h1>Two Player Math Game</h1> -->
+        <!-- <div class="header">
+			<div>Two Player Math Game</div>
+		</div> -->
+        <div class="grad"></div>
+        <div class="header">
+			<div>Two Player<span> Math Game</span></div>
+		</div>
         <br>
-        <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+        <!-- <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
             <h3>Player 1 Login for the game</h3>
             <label>User Name:</label>
             <input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name">
@@ -27,8 +34,18 @@
             <label>User Name:</label>
             <input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name">
         </div>
-        <br>
-        <button style="width:30%" class="btn btn-primary" onclick="addUser()">Login in</button>
+        <br> -->
+        <div class="login">
+            <div>
+                <input type="text" placeholder="Player 1 Name" name="user"><br>
+            <input type="text" placeholder="Player 2 Name" name="user2"><br>
+            <input type="button" value="Login" onclick="addUser()">
+            </div>
+            <!-- <input type="text" placeholder="Player 1 Name" name="user"><br>
+            <input type="text" placeholder="Player 2 Name" name="user2"><br>
+            <input type="button" value="Login" onclick="addUser()"> -->
+        </div>
+        <!-- <button style="width:30%" class="btn btn-primary" onclick="addUser()">Login in</button> -->
 
 </body>
 </html>
