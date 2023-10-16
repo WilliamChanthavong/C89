@@ -1,51 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Math Quiz Game™</title>
+	<title>Let's Chat™</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">\
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Sarpanch' rel='stylesheet'>
 
-<link rel="stylesheet" type="text/css" href="quiz_game.css">
-
-<script src="quiz_game_login.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
 </head>
-<body class="body">
-    <br>
-        <!-- <h1>Two Player Math Game</h1> -->
-        <!-- <div class="header">
-			<div>Two Player Math Game</div>
-		</div> -->
-        <div class="grad"></div>
-        <div class="header">
-			<div>Two Player<span> Math Game</span></div>
+<body>
+<center>
+	<h1 class="header">	
+		Let's Chat™
+		<sup>
+			<img src="logoch.png">
+		</sup>
+	</h1>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+	<img src="logoch.png" class="logo">
+		<h3 class="words" >View the brain. See what is inside the brain.</h3>
+		<h4 class="words" >Join Innovator Brain today!</h4>
+		<div class="form-group">
+		  <label >User Name:</label>
+		  <input type="text" id="user_name" class="form-control" placeholder="Username">
 		</div>
-        <br>
-        <!-- <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
-            <h3>Player 1 Login for the game</h3>
-            <label>User Name:</label>
-            <input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name">
-        </div>
-        <br>
-        <div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
-            <h3>Player 2 Login for the game</h3>
-            <label>User Name:</label>
-            <input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name">
-        </div>
-        <br> -->
-        <div class="login">
-            <div>
-                <input type="text" class="form-control" placeholder="Player 1 Name" name="user" id="username1"><br>
-            <input type="text" class="form-control" placeholder="Player 2 Name" name="user2" id="username2"><br>
-            <input type="button" value="Login" onclick="addUser()">
-            </div>
-            <!-- <input type="text" placeholder="Player 1 Name" name="user"><br>
-            <input type="text" placeholder="Player 2 Name" name="user2"><br>
-            <input type="button" value="Login" onclick="addUser()"> -->
-        </div>
-        <!-- <button style="width:30%" class="btn btn-primary" onclick="addUser()">Login in</button> -->
-
+		<button id="login_button" class="btn btn-warning" onclick="addUser()">Log in</button>
+		<br><br>
+	</div>
+</center>
 </body>
 </html>
